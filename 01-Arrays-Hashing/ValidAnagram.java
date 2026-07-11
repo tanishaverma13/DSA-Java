@@ -2,20 +2,14 @@
 -------------------------------------------------------
 LeetCode 242 - Valid Anagram
 
-Pattern:
-Frequency Counting
-
-Difficulty:
-Easy
+Pattern: Frequency Counting
+Difficulty: Easy
 
 Approach:
 Frequency Array
 
-Time Complexity:
-O(n)
-
-Space Complexity:
-O(1)
+Time Complexity: O(n)
+Space Complexity: O(1)
 
 Key Learning:
 Compare character frequencies instead of character order.
