@@ -1,6 +1,6 @@
 /*
 -------------------------------------------------------
-LeetCode #1 - Two Sum
+LeetCode 1 - Two Sum
 
 Pattern: Arrays + HashMap
 Difficulty: Easy
