@@ -1,3 +1,24 @@
+/*
+-------------------------------------------------------
+LeetCode #1 - Two Sum
+
+Pattern: Arrays + HashMap
+Difficulty: Easy
+
+Approach:
+Store previously seen numbers in a HashMap.
+For each element, compute the complement (target - current).
+If the complement exists, return both indices.
+Otherwise, store the current number with its index.
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+
+Key Learning:
+Use HashMap for O(1) lookup to avoid checking every pair.
+-------------------------------------------------------
+*/
+
 import java.util.Arrays;
 import java.util.HashMap;
 
