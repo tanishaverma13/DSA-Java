@@ -18,7 +18,7 @@ Compare character frequencies instead of character order.
 
 class Solution {
 
-    public boolean isAnagram(String s, String t) {
+    public static boolean isAnagram(String s, String t) {
 
         if (s.length() != t.length())
             return false;
@@ -38,5 +38,9 @@ class Solution {
         }
 
         return true;
+    }
+
+    public static void main(String[] args) {
+    System.out.println(isAnagram("anagram", "nagaram"));
     }
 }
